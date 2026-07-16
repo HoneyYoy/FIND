@@ -1,0 +1,31 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgba(94, 54, 54, 0.7), rgba(24, 74, 84, 0.7));
+    background-size: cover;
+    text-align: center;
+}
+
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    margin: 20px auto;
+    gap: 5px;
+}
+
+.game-board img {
+  border: 3px solid whitesmoke; 
+  width: 100px;
+  height: 100px;
+}
+
+.game-board img:hover {
+     cursor: pointer;
+}
+
+h1 {
+  font-size: 72px;
+  text-align: center;
+  color:rgb(234, 0, 255);
+}
